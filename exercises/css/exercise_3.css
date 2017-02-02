@@ -1,0 +1,11 @@
+body{
+	background: #BDE3F1;
+}
+
+#navBar{
+	padding: 0;
+}
+
+#navBar a{
+	padding: 50px;
+}
