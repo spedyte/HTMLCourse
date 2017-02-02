@@ -1,0 +1,20 @@
+#rowFooter{
+	background: #97F6BD;
+}
+
+.col1{
+
+	text-align: right;
+}
+
+#txtMonth,#txtDay,#txtCode,#txtArea{
+	width: 50px;
+}
+
+#txtYear{
+	width: 100px;
+}
+
+#txtEmail,#txtName,#txtLastName{
+	width: 380px;
+}

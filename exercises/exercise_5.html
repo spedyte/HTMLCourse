@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Exercise 5</title>
+    <link rel="stylesheet" type="text/css" href="./css/exercise_5.css" />
+</head>
+
+<body>
+	<table border="1" width="60%">
+		<!--Row 1-->
+		<tr>
+			<td width="20%" class="col1">Last Name: </td>
+			<td><input type="text" id="txtLastName"></td>
+		</tr>
+		<!--Row 2-->
+		<tr>
+			<td class="col1">First Name: </td>
+			<td><input type="text" id="txtName"></td>
+		</tr>
+		<!--Row 3-->
+		<tr>
+			<td class="col1">Address :</td>
+			<td><textarea rows="5" cols="40" id="txtAddress"></textarea></td>
+		</tr>
+		<!--Row 4-->
+		<tr>
+			<td class="col1"> City: </td>
+			<td><input type="text" id="txtCity"> &nbsp;&nbsp; State: <input type="text" id="txtState"></td>
+		</tr>
+		<!--Row 5-->
+		<tr>
+			<td class="col1">Zip/Postal Code: </td>
+			<td><input type="text" name="txtZipCode"></td>
+		</tr>
+		<!--Row 6-->
+		<tr>
+			<td class="col1">Country: </td>
+			<td>
+				<select id="cbxCountry">
+					<option value="0">Pais 1</option>
+					<option value="1">Pais 2</option>
+					<option value="2">Pais 3</option>
+					<option value="3">Pais 4</option>
+				</select>
+			</td>
+		</tr>
+		<!--Row 7-->
+		<tr>
+			<td class="col1">Phone(country code, <br/>area code, numbwer)</td>
+			<td>(+<input id="txtCode" type="text"> : <input id="txtArea" type="text"> - <input id="txtNumber" type="text"></td>
+		</tr>
+		<!--Row 8-->
+		<tr>
+			<td class="col1">E-mail: </td>
+			<td><input type="text" id="txtEmail"></td>
+		</tr>
+		<!--Row 9-->
+		<tr>
+			<td class="col1">Birth data: </td>
+			<td>Month <input id="txtMonth" type="text"> Day <input id="txtDay" type="text"> Year(4 digits)<input id="txtYear" type="text"></td>
+		</tr>
+		<!--Row 10-->
+		<tr>
+			<td class="col1">Gender: </td>
+			<td>
+				<select id="cbxGender">
+					<option value="0">Male</option>
+					<option value="1">Female</option>
+				</select>
+			</td>
+		</tr>
+		<!--Row 11-->
+		<tr>
+			<td class="col1">Starting date: </td>
+			<td>
+				<input type="radio" id="rdbSpring" name="season"> Spring 2008
+				<input type="radio" id="rdbSummer" name="season"> Summer 2008
+			</td>
+		</tr>
+		<!--Row 12-->
+		<tr>
+			<td class="col1">Comment/Questions</td>
+			<td><textarea rows="5" cols="40" id="txtComments"></textarea></td>
+		</tr>
+		<!--Row 13-->
+		<tr align="center">
+			<td colspan="2" id="rowFooter">
+				<input type="button" name="submit" value="submit">&nbsp;&nbsp;
+				<input type="button" name="close" value="Close this Form">
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
