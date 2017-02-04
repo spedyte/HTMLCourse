@@ -1,0 +1,55 @@
+#titleTable{
+	font-size: 2em;
+	color: #E0DADA;
+}
+
+#idTable{
+	width: 30%;
+}
+
+.caption{
+	color: #E1E2E0;
+    font-style: italic; 
+}
+
+body{
+	background-color: #848484;
+}
+
+.valueItem{
+	color: #F0F7CB;
+}
+
+.valueItemGray{
+	color: #E3E0E0;
+}
+
+#nnoSupport{
+color: #982020;
+font-weight: bold;
+}
+
+.noAnswered{
+	color: #F0B950;
+	font-weight: bold;
+}
+
+
+#idTable{
+	border: 10px;
+	border-style: solid;
+	border-color: black;
+}
+
+ul{
+	padding: 0 0;
+}
+
+li {
+  color: #00FF00; /* bullet color */
+  text-align: left;
+  padding: 0 0 0 0;
+}
+li span {
+  color: #F0F7CB; /* text color */
+}
