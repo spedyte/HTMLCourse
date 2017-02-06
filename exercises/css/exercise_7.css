@@ -1,0 +1,40 @@
+th{
+	background-color: #3CDE0A;
+	color:#FFFFFF;
+	text-align: left;
+	margin-left: 10;
+}
+
+table{
+	width: 80%;
+}
+
+td{
+	text-align: center;
+	margin-left: 10;
+}
+
+.even{
+	background-color: #D8D6D6
+}
+
+.old{
+	background-color: #FAFBC8;
+}
+
+.col1{
+	text-align: left;
+}
+
+.col2{
+	text-align: left;
+}
+
+.col3{
+	margin-left: 30;
+	text-align: left;
+}
+
+.col4{
+	text-align: center;
+}
