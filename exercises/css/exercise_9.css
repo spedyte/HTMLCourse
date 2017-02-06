@@ -1,0 +1,63 @@
+nav{
+	width: 20%;
+	height: 80%;
+}
+
+section{
+	width:80%;
+	height: 80%;
+	padding: 100;
+	text-align: center;
+}
+
+footer{
+	width: 100%;
+	height: 20%;
+}
+
+.boldLetters{
+	font-weight: bold;
+}
+
+.btn {
+height: 20px;
+width: 100px;  
+background-image:url('./images/flags/png/ca.png');
+background-repeat:no-repeat;
+background-color: #F53333;
+color: white;
+}
+
+.boton{
+background-image: url(images/redButton.png); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 20px;           /* make this the size of your image */
+    width: 100px;
+    padding-left: 16px;     /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+}
+
+body{
+	background-color: #D8D8D8;
+}
+
+.division{
+	border: 1;
+	border-color: #BEB5B5;
+	border-style: solid;
+	background-color: white;
+	padding: 100;
+}
+
+table{
+	padding: 100;
+}
+
+div{
+	padding: 100;
+	display: inline-block;
+}
