@@ -1,0 +1,32 @@
+body{
+	background-color:#D0F0FA;
+}
+
+#nav{
+	margin: 0;
+	padding: 200;
+	background-color: #6072FA;
+	}
+
+#nav li{
+	list-style: none;
+	float:center;
+	padding: 0 ;
+	border: 1;
+	border-color: #565555;
+	display: inline-block;
+	color: black;
+}
+
+#nav li a:link, #nav li a:visited{
+	text-decoration: none;
+	padding: 10px;
+	background-color: #D6D4D4;
+	display: block;
+	border-right: 1px solid #807F7F;
+}
+
+#nav li a:hover{
+	background-color: #7B4BF6;
+	color: white;
+}
